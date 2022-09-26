@@ -1,0 +1,3 @@
+# Light/Dark Theme Calculator
+
+This calculator switches from light to dark mode or vice versa with the click.

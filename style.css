@@ -59,7 +59,7 @@ body{
     margin: 0 10px;
     height: 150px;
     width: auto;
-    max-width: 270px;
+    max-width: 315px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -88,11 +88,11 @@ body{
     height: 3px;
 }
 button{
-    height: 60px;
-    width: 60px;
+    height: 66px;
+    width: 66px;
     border: 0;
     border-radius: 30px;
-    margin: 5px;
+    margin: 12px;
     font-size: 20px;
     cursor: pointer;
     transition: all 200ms ease;
@@ -118,14 +118,17 @@ button#equal{
 .calculator button.btn-number{
     background-color: #c3eaff;
     color: #000;
+    border: none;
 }
 .calculator button.btn-operator{
     background-color: #ffd0fd;
     color: #f967f3;
+    border: none;
 }
 .calculator button.btn-equal{
     background-color: #adf9e7;
     color: #000;
+    border: none;
 }
 /* dark theme */
 

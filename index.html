@@ -4,11 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Simple Calculator</title>
+    <style>
+        .btn-primary, .btn-info{
+            height: auto;
+            width: auto;
+        }
+        .headerbuttons{
+        display: flex;    
+        position: relative;
+        height: auto;
+        width: auto;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 30px #000; 
+        }
+        .headerbuttons a{
+            margin: 0px 3px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
+        <div>
+        <div class="headerbuttons">
+            <a type="button" class="btn btn-lg btn-info" disabled>Simple Calculator</a>
+            <a type="button" class="btn btn-lg btn-primary" href="./scientific-calculator.html">Scientific Calculator</a>
+        </div>
         <div class="calculator dark">
             <div class="theme-toggler active">
                 <i class="toggler-icon"></i>
@@ -50,6 +74,7 @@
                 </table>
             </div>
         </div>
+    </div>
     </div>
     <script src="script.js"></script>
     </div>

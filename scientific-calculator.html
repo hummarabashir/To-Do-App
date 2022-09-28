@@ -8,14 +8,29 @@
     <link rel="stylesheet" href="css/calculator.css">
     <link rel="stylesheet" href="style.css">
     <title>Scientific Calculator</title>
+    <style>
+        .headerbuttons{
+        display: flex;    
+        position: relative;
+        height: auto;
+        width: auto;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 30px #000; 
+        }
+        .headerbuttons a{
+            margin: 0px 3px;
+        }
+    </style>
 </head>
 <body>
    
     <div class="container">
-<!-- <div class="headerbuttons">
-    <button type="button" class="btn btn-lg btn-primary">Simple Calculator</button>
-    <button type="button" class="btn btn-lg btn-primary">Scientific Calculator</button>
-</div> -->
+        <div>
+<div class="headerbuttons">
+    <a type="button" class="btn btn-lg btn-primary" href="./index.html">Simple Calculator</a>
+    <a type="button" class="btn btn-lg btn-info" disabled>Scientific Calculator</a>
+</div>
         <div class="calculator dark">
             <div class="theme-toggler active">
                 <i class="toggler-icon"></i>
@@ -79,6 +94,7 @@
                 <button type="button" class="btn btn-lg btn-primary btn-equal" value="=" name="equal" onclick="answer()">=</button>
             </div>
         </form>
+</div>
 </div>
     </div>
     <script src="js/jquery-3.2.1.js"></script>
